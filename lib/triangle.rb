@@ -13,4 +13,4 @@ class Triangle
 end
 
 tri = Triangle.new(10, 10, 10)
-tri.all
+p tri.all
