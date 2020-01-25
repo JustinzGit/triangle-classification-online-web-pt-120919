@@ -7,9 +7,6 @@ class Triangle
     @side3 = side3
   end 
   
-  def self.all
-    @@all
-  end 
 end
 
 
