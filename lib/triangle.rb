@@ -8,7 +8,7 @@ class Triangle
   end 
   
   def kind
-    
+    @sides.uniq
 end
 
 tri = Triangle.new(10, 10, 10)
