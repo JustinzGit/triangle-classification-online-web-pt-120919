@@ -10,6 +10,8 @@ class Triangle
   def kind
     if @sides.uniq.length == 1
       return :equilateral
+    elsif @sides.uniq.length == 3 
+      return :isosceles
     elsif 
 end
 
