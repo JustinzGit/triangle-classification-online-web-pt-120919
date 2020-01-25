@@ -11,7 +11,7 @@ class Triangle
     if @sides.uniq.length == 1
       return :equilateral
     elsif @sides.uniq.length == 3 
-      return :isosceles
+      return :scalene
     elsif 
 end
 
