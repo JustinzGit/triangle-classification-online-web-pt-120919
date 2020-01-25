@@ -1,6 +1,5 @@
 class Triangle
-  attr_accessor :side1, :side2, :side3
-  
+
   @sides = []
 
   def initialize(side1, side2, side3)
@@ -14,5 +13,5 @@ class Triangle
   end 
 end
 
-tri = Triangle.new(10, 10, 10)
+tri = Triangle.new('10', '10', '10')
 tri.all
