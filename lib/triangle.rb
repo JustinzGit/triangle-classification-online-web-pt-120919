@@ -7,7 +7,8 @@ class Triangle
     @sides << side3
   end 
   
-  
+  def kind
+    
 end
 
 tri = Triangle.new(10, 10, 10)
