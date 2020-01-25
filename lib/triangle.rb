@@ -8,6 +8,7 @@ class Triangle
   end 
   
   def kind
+    @sides.sort
     if (@sides[0] + @sides[1]) < @sides[2]
       raise TriangleError
     elsif @sides.any? {|x| x <= 0}
