@@ -8,7 +8,9 @@ class Triangle
   end 
   
   def kind
-    @sides.uniq
+    if @sides.uniq.length == 1
+      return :equilateral
+    elsif 
 end
 
 tri = Triangle.new(10, 10, 10)
