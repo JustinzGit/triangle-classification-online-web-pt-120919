@@ -8,6 +8,9 @@ class Triangle
   end 
   
   def kind
+    if (@sides[0] + @sides[1]) < @sides[3]
+      
+    
     if @sides.uniq.length == 1
       return :equilateral
     elsif @sides.uniq.length == 2 
