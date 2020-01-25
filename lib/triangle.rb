@@ -9,7 +9,8 @@ class Triangle
   
   def kind
     if (@sides[0] + @sides[1]) < @sides[3]
-      
+      raise TriangleError
+    end 
     
     if @sides.uniq.length == 1
       return :equilateral
@@ -21,7 +22,6 @@ class Triangle
   end
   
   class TriangleError < StandardError
-    
   end 
 end
 
